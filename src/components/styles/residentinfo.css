@@ -1,0 +1,85 @@
+.card{
+    border-radius: 0.8em;
+    background-color: #062226;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.card__header{
+    position: relative;
+}
+
+.circle__container{
+    position: absolute;
+    top: 25px;
+    background-color: #062226;
+    width: 100px;
+    padding: 0.2em 0 0.2em 0.3em;
+    border-radius: 0 0.4em 0.4em 0;
+    display: flex;
+    gap: 5px;
+}
+
+.circle{
+    display: block;
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: red;
+    
+}
+
+.unknown{
+    background-color: gray;
+}
+.Alive{
+    background-color: greenyellow;
+}
+.Dead{
+    background-color: red;
+}
+
+.card__body{
+    padding: 1em 1.1em 1.5em;
+}
+
+.card__name{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.card__list{
+    display: grid;
+    gap: 0.5em ;
+}
+
+.card__item{
+    display: flex;
+    flex-direction: column;
+    
+}
+.card__span{
+    font-size: 0.9rem;
+    position: relative;
+    left: 1em;
+    color: #aaa
+}
+.hr{
+    margin-bottom: 10px;
+}
+
+.banner{
+    background-image: url(https://imgs.search.brave.com/cvlw_vI7yqZDZNc7piFND2LtODXvkTYW1HNn2RLw1zI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9mcmVl/NGt3YWxscGFwZXJz/LmNvbS91cGxvYWRz/L29yaWdpbmFscy8y/MDIxLzA0LzE4L3Jp/Y2stYW5kLW1vcnR5/LXdhbGxwYXBlci5q/cGc);
+    background-repeat: no-repeat;
+    background-position-y: -150px;
+    width: 100%;
+    background-size: auto;
+    background-position: center;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
