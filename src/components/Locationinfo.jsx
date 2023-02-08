@@ -6,13 +6,13 @@ const Locationinfo = ({ location }) => {
       <h2 className="Location__name">{location?.name}</h2>
       <ul className="Location__list">
         <li>
-          <span className="span_list">type:</span> {location?.type}
+          <span className="span_list">type</span> {location?.type}
         </li>
         <li>
-          <span className="span_list">dimension:</span> {location?.dimension}
+          <span className="span_list">dimension</span> {location?.dimension}
         </li>
         <li>
-          <span className="span_list">population: </span>
+          <span className="span_list">population </span>
             {location?.residents.length}
         </li>
       </ul>

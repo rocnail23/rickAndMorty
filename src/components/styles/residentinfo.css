@@ -83,3 +83,14 @@
     font-size: 50px;
     margin-bottom: 20px;
 }
+
+@media (max-width: 480px){
+    .banner{
+        background-size: cover;
+        background-position-x: -200px;
+    }
+
+    .App__title{
+        font-size: 50px;
+    }
+}
